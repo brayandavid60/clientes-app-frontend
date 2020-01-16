@@ -17,5 +17,5 @@ Consta de 3 partes:
 - Como se mencionó anteriormente, la base de datos debe ser creada en *MySQL* y debe ser nombrada **"db_springboot_backend"** para un correcto funcionamiento y evitar configurar la URL de la base de datos en el *application.properties*.
 -Cambiar el username y el password por los que tenga el usuario en su gestor de base de datos.
 
-*NOTA*
+*NOTA:*
 Este proyecto se encuentra en pleno desarrollo, está sujeto a modificaciones que mejoren su funcionamiento, estabilidad y usabilidad.
