@@ -1,4 +1,4 @@
-Este proyecto está desarollado en Angular-CLI 8 y Spring 5.
+**Este proyecto está en proceso de desarrollo en Angular-CLI 8 y Spring 5.**
 
 Consta de 3 partes:
 
@@ -16,3 +16,6 @@ Consta de 3 partes:
 - El Backend debe ser abierto en Eclipse IDE. Se debe instalar el siguiente plugin o componente por medio del *Eclipse Marketplace* para un correcto funcionamiento: **Spring Tool 4**.
 - Como se mencionó anteriormente, la base de datos debe ser creada en *MySQL* y debe ser nombrada **"db_springboot_backend"** para un correcto funcionamiento y evitar configurar la URL de la base de datos en el *application.properties*.
 -Cambiar el username y el password por los que tenga el usuario en su gestor de base de datos.
+
+*NOTA*
+Este proyecto se encuentra en pleno desarrollo, está sujeto a modificaciones que mejoren su funcionamiento, estabilidad y usabilidad.
