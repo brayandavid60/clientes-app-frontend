@@ -1,27 +1,18 @@
-# ClientesApp
+Este proyecto está desarollado en Angular-CLI 8 y Spring 5.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+Consta de 3 partes:
 
-## Development server
+1.  **Frontend:** esta se encuentra en pleno desarrollo y está en constante mejora, debe ser iniciada junto al backend y la base de datos. https://github.com/brayandavid60/clientes-app-frontend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2.  **Backend:** es la parte que se encarga de realizar la conexión, envío, cargar, actualización y eliminación de datos en la base de datos,  para configurar de manera exitosa, se debe modificar algunos parámetros en el archivo ***application.properties***, la cual se ubica en *(clientes-app-backend/src/main/resources/application.properties)*; este archivo se encarga de realizar la conexión con la base de datos. https://github.com/brayandavid60/clientes-app-backend
 
-## Code scaffolding
+3. **Base de datos:** para el uso de la aplicación, se debe crear una base de datos en MySQL, esta debe ser nombrada **"db_springboot_backend"** para un perfecto funcionamiento de la aplicación.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+**RECOMENDACIONES**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Se recomienda actualizar el Angular de manera global para disponer de todas las funciones y características utilizadas en este proyecto.
+- Se debe instalar el JDK 13 - adelante. 
+- El Backend debe ser abierto en Eclipse IDE. Se debe instalar el siguiente plugin o componente por medio del *Eclipse Marketplace* para un correcto funcionamiento: **Spring Tool 4**.
+- Como se mencionó anteriormente, la base de datos debe ser creada en *MySQL* y debe ser nombrada **"db_springboot_backend"** para un correcto funcionamiento y evitar configurar la URL de la base de datos en el *application.properties*.
+-Cambiar el username y el password por los que tenga el usuario en su gestor de base de datos.
